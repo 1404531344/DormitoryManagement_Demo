@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fz.dao.AdminDao">
+
+<!--    <sql id="Base_Column_List">-->
+<!--        a_id , a_username , a_password, a_name, a_phone,a_power,a_describe-->
+<!--    </sql>-->
+
+   <select id="getAllAdmin"  resultType="com.fz.entity.Admin">
+       select * from d_admin
+   </select>
+
+
+</mapper>
